@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg", "photoyins.jpg"
+            "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg", 
-              "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg"
+              "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg", 
+              "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg"
           ]
     )
     await bot.send_message(bf, username)
@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**currently restarting userbot, if there are any problems please contact @jPipis!**",
+                "**currently restarting userbot, if there are any problems please contact @Muutya!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**currently restarting userbot, if there are any problems please contact @jPipis!**",
+            "**currently restarting userbot, if there are any problems please contact @Muutya!**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
