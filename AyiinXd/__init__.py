@@ -254,17 +254,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+              or "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+              or "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+             or "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg")
 
 DEFAULT = list(map(int, b64decode("Njk0NzQ5OTIyOQ==").split()))
 
@@ -465,8 +465,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
-                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
+                    "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg",
+                    "https://graph.org/file/8234f5de20db6cffcd892-25200f9fe8ffd688c2.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -577,7 +577,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n"
+                    f"**𝗠𝘂𝘁𝘆𝗮-Userbot Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
